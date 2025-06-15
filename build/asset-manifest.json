@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rowdy/static/css/main.af11fae7.css",
+    "main.js": "/rowdy/static/js/main.8143d80d.js",
+    "static/media/IMG_3279.jpeg": "/rowdy/static/media/IMG_3279.0561eec2ff5ae795b270.jpeg",
+    "static/media/home2.png": "/rowdy/static/media/home2.8f57be619f3fa0e20da1.png",
+    "static/media/Nexa.ttf": "/rowdy/static/media/Nexa.13e16a1c3c48dd492fa9.ttf",
+    "static/media/Mindsight.ttf": "/rowdy/static/media/Mindsight.ce7e5f685d4128b9aa20.ttf",
+    "index.html": "/rowdy/index.html",
+    "main.af11fae7.css.map": "/rowdy/static/css/main.af11fae7.css.map",
+    "main.8143d80d.js.map": "/rowdy/static/js/main.8143d80d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af11fae7.css",
+    "static/js/main.8143d80d.js"
+  ]
+}
