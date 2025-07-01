@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.30b9a65b.css",
-    "main.js": "/static/js/main.6b03513b.js",
-    "static/media/IMG_3279.jpeg": "/static/media/IMG_3279.0561eec2ff5ae795b270.jpeg",
+    "main.css": "/static/css/main.a14de207.css",
+    "main.js": "/static/js/main.721f0686.js",
+    "static/media/featuredImg4.jpeg": "/static/media/featuredImg4.0561eec2ff5ae795b270.jpeg",
     "static/media/home2.png": "/static/media/home2.8f57be619f3fa0e20da1.png",
     "static/media/Nexa.ttf": "/static/media/Nexa.13e16a1c3c48dd492fa9.ttf",
     "static/media/Mindsight.ttf": "/static/media/Mindsight.ce7e5f685d4128b9aa20.ttf",
+    "static/media/productImg.png": "/static/media/productImg.0fa34079e20a3e7bf7b6.png",
+    "static/media/aboutUs.png": "/static/media/aboutUs.2f4a17bcb325bdc90558.png",
+    "static/media/FAQ.png": "/static/media/FAQ.d1fb4af7faef305127b4.png",
+    "static/media/productImgSmallpng.png": "/static/media/productImgSmallpng.7d71fd0ed7cf0d04d607.png",
+    "static/media/newsletter.png": "/static/media/newsletter.cff70797c020c1514a75.png",
+    "static/media/Rlogo.png": "/static/media/Rlogo.9e36cec6d6260a0e54e7.png",
+    "static/media/termsTitle.png": "/static/media/termsTitle.e8071b128bff7bee023b.png",
     "index.html": "/index.html",
-    "main.30b9a65b.css.map": "/static/css/main.30b9a65b.css.map",
-    "main.6b03513b.js.map": "/static/js/main.6b03513b.js.map"
+    "main.a14de207.css.map": "/static/css/main.a14de207.css.map",
+    "main.721f0686.js.map": "/static/js/main.721f0686.js.map"
   },
   "entrypoints": [
-    "static/css/main.30b9a65b.css",
-    "static/js/main.6b03513b.js"
+    "static/css/main.a14de207.css",
+    "static/js/main.721f0686.js"
   ]
 }
