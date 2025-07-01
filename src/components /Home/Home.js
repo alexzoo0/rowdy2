@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { Grid } from '@material-ui/core';
 import emailjs from '@emailjs/browser';
 
@@ -33,16 +33,19 @@ const Home = () => {
     <Grid>
       <div> <Navbar /> </div>
       <div className='three'>
-        <form ref={form} onSubmit={sendEmail}  className='img'>
-          <input type="email" name="email" placeholder="Type Email Here"></input>
-          <button type="submit" value="Send" >Submit</button>
-        </form>
+        <div className='img'></div>
       </div>
-      <div>
-          {result ? <Result /> : null}
-        </div>
         <div className='boxImg'>
           <div className='featuredImg'></div>
+        </div>
+        <div className='news'>
+          <form ref={form} onSubmit={sendEmail}  className='newsletter'>
+          <input  type="email" name="email" placeholder="Type Email Here" required></input>
+          <button className='buttonN' type="submit" value="Send" >Submit</button>
+        </form>
+        </div>
+        <div className='result'> 
+          {result ? <Result /> : null}
         </div>
       <div> <Footer /> </div>
     </Grid>

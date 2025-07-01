@@ -17,21 +17,40 @@ h1 {
   font-family: 'Heavitas';
 }
 
+p {
+  border-style: none;
+}
 
-/* name, title, statement and buttons here */
+
+/* navigation bar section */
+
+.navlogo {
+  padding: 20px;
+  margin: 20px 0px -14px 50px;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.smallLogo {
+  display: none;
+}
+
+.bigLogo {
+  display: block;
+  height: 200px;
+  width: 350px;
+  margin: 5px 0px 0px -10px;
+}
+
+/* homepage section */
 
 .three {
   display: flex;
   justify-content: center;
   padding: 0px 0px 0px 0px;
   margin: -120px 0px 0px 0px;
-}
-
-.title {
-  display: flex;
-  justify-content: center;
-  font-size: 50px;
-  margin: 120px 0px 0px 0px;
 }
 
 .img {
@@ -43,51 +62,7 @@ h1 {
   width: 2500px;
   height: 1000px;
   padding: 0px 0px 400px 0px;
-  margin: -10px 0px 0px 0px;
-}
-
-.p {
-  text-align: center;
-  margin: 200px 0px 0px 0px;
-  padding: 150px;
-  font-size: 80px;
-  font-family: 'nexa';
-}
-
-input {
-  width: 700px;
-  height: 90px;
-  border-radius: 8px 0px 0px 8px;
-  margin: 1150px 0px 0px 0px;
-  background-color: #FCF3E3;
-  border-style: none;
-  font-size: 20px;
-  padding-left: 40px;
-}
-
-button {
-  width: 150px;
-  height: 92px;
-  border-radius: 0px 8px 8px 0px;
-  margin: 1150px 0px 0px 0px;
-  font-size: 20px;
-  border-style: none;
-  background-color: #FCF3E3;
-}
-
-
-button:hover {
-  background-color: #4F3325;
-  color: white;
-}
-
-.sucess {
-  color:darkgreen;
-  display: flex;
-  justify-content: center;
-  font-family: 'nexa';
-  font-size: 20px;
-  margin: 20px 0px 20px 0px;
+  margin: 50px 0px 0px 0px;
 }
 
 .boxImg {
@@ -96,35 +71,228 @@ button:hover {
 }
 
 .featuredImg {
-  background-image: url(/src/img/IMG_3279.jpeg);
+  background-image: url(/src/img/featuredImg4.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 2500px;
   height: 1000px;
 }
 
+/* newsletter section */
+
+.news {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
+}
+
+.newsletter {
+  background-image: url(/src/img/newsletter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 1650px;
+  height: 950px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+input {
+  width: 700px;
+  height: 90px;
+  border-radius: 8px 0px 0px 8px;
+  margin: 650px 0px 0px 0px;
+  background-color: #4F3325;
+  color: white;
+  border-style: none;
+  font-size: 20px;
+  padding-left: 40px;
+}
+
+.buttonN {
+  width: 150px;
+  height: 92px;
+  border-radius: 0px 8px 8px 0px;
+  margin: 650px 0px 0px 0px;
+  font-size: 20px;
+  border-style: none;
+  background-color: #4F3325;
+  color: white;
+}
 
 
+.buttonN:hover {
+  background-color: #4F3325;
+  color: white;
+}
 
-/* name, title, statement and buttons ends here */
+.sucess {
+  color: darkgreen;
+  display: flex;
+  justify-content: center;
+  font-family: 'nexa';
+  font-size: 20px;
+  margin: 20px 0px 20px 0px;
+}
 
+.result {
+  margin: -100px 0px 100px 0px;
+}
 
-/* background shapes, layout, or colors here */
+/* terms & conditions section*/
 
-/* background shapes, layout, or colors  ends here */
-/* web development pages, background shapes, layout, or colors  starts here */
+.termsTitle {
+  background-image: url(/src/img/termsTitle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 1920px;
+  height: 350px;
+  padding: 0px 0px 0px 0px;
+  margin: 10px 0px 200px 0px;
+}
 
-/* background shapes, layout, or colors  ends here */
+.terms {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+  margin: 80px 0px 0px 0px;
+  background-color: #FCF3E3;
+}
+
+.tc {
+  padding: 50px;
+  margin: 50px 60px 60px 60px;
+  background-color: #ffe7c0;
+}
+
+.tc p {
+  font-size: 20px;
+  font-family: 'nexa';
+}
+
+.tc h1 {
+  font-family: 'nexa';
+}
+
+.termsLink {
+  text-decoration: none;
+  border-color: #21242a;
+}
+
+/* FAQ section */
+
+.faq {
+  padding: 100px;
+  font-family: 'nexa';
+}
+
+.faq h1 {
+  font-family: 'nexa';
+}
+
+.faq p {
+  font-size: 20px;
+}
+
+.faqs {
+  background-image: url(/src/img/FAQ.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 1650px;
+  height: 400px;
+  padding: 0px 0px 400px 0px;
+  margin: -10px 0px 0px 0px;
+}
+
+.bgfaq {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  background-color: #FCF3E3;
+}
+
+/* Product section */
+
+.product {
+  background-image: url(/src/img/productImg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 1650px;
+  height: 400px;
+  padding: 0px 0px 400px 0px;
+  margin: -10px 0px 0px 0px;
+}
+
+.bgProduct {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+  margin: -100px 0px 0px 0px;
+  background-color: #21242a;
+}
+
+/* About us section */
+
+.about {
+  background-image: url(/src/img/aboutUs.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 3000px;
+  height: 900px;
+  padding: 0px 0px 500px 0px;
+  margin: -150px 0px 0px 0px;
+}
+
+.aboutUs {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+  margin: -40px 0px 0px 0px;
+}
+
+.contentA {
+  margin: 50px;
+  font-size: 20px;
+  font-family: nexa;
+}
+
 
 
 
 /* Media queries */
-@media screen and (max-width: 2450px ) {
+
+@media screen and (max-width: 2450px) {
+  /* navigation bar section */
+
+  .smallLogo {
+    display: none;
+  }
+
+  .bigLogo {
+    display: block;
+    height: 100px;
+    width: 180px;
+    margin: 5px 0px 0px -10px;
+  }
+
+  /* homepage section */
+
   .three {
     display: flex;
     justify-content: center;
     padding: 0px 0px 0px 0px;
-    margin: 70px 0px 0px 0px;
+    margin: 120px 0px 0px 0px;
   }
 
   .img {
@@ -143,38 +311,198 @@ button:hover {
     width: 500px;
     height: 88px;
     border-radius: 8px 0px 0px 8px;
-    margin: 800px 0px 0px 50px;
-    background-color: #FCF3E3;
+    margin: 600px 0px 0px 50px;
+    background-color: #4F3325;
     font-size: 20px;
     padding-left: 40px;
   }
 
-  button {
+  .buttonN {
     width: 150px;
     height: 90px;
     border-radius: 0px 8px 8px 0px;
-    margin: 800px 0px 0px 0px;
+    margin: 600px 0px 0px 0px;
     font-size: 20px;
     border-style: none;
-    background-color: #FCF3E3;;
-  }
-
-  button:hover {
     background-color: #4F3325;
     color: white;
   }
 
+  .buttonN:hover {
+    background-color: #FCF3E3;
+    color: #4F3325;
+  }
+
   .featuredImg {
-    background-image: url(/src/img/IMG_3279.jpeg);
+    background-image: url(/src/img/featuredImg4.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 2000px;
     height: 800px;
   }
-  
+
+  /* newsletter section */
+
+  .news {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
+  }
+
+  .newsletter {
+    background-image: url(/src/img/newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1650px;
+    height: 950px;
+    padding: 0px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+  }
+
+  /* terms & conditions section */
+
+  .termsTitle {
+    background-image: url(/src/img/termsTitle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    height: 350px;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 200px 0px;
+  }
+
+  .terms {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 80px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
+  .tc {
+    padding: 50px;
+    margin: 50px 60px 60px 60px;
+    background-color: #ffe7c0;
+  }
+
+  .tc p {
+    font-size: 20px;
+    font-family: 'nexa';
+  }
+
+  .tc h1 {
+    font-family: 'nexa';
+  }
+
+  .termsLink {
+    text-decoration: none;
+    border-color: #21242a;
+  }
+
+  /* FAQ section */
+
+  .faq {
+    padding: 100px;
+    font-family: 'nexa';
+  }
+
+  .faq h1 {
+    font-family: 'nexa';
+  }
+
+  .faq p {
+    font-size: 20px;
+  }
+
+  .faqs {
+    background-image: url(/src/img/FAQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1650px;
+    height: 400px;
+    padding: 0px 0px 400px 0px;
+    margin: -10px 0px 0px 0px;
+  }
+
+  .bgfaq {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
+  /* Product section */
+
+  .product {
+    background-image: url(/src/img/productImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1650px;
+    height: 400px;
+    padding: 0px 0px 400px 0px;
+    margin: -10px 0px 0px 0px;
+  }
+
+  .bgProduct {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+    background-color: #21242a;
+  }
+
+  /* About us section */
+
+  .about {
+    background-image: url(/src/img/aboutUs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 2500px;
+    height: 600px;
+    padding: 0px 0px 550px 0px;
+    margin: -10px 0px 0px 0px;
+  }
+
+  .aboutUs {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: -40px 0px 0px 0px;
+  }
+
+  .contentA {
+    margin: 50px;
+  }
 }
 
-@media screen and (max-width: 1650px ) {
+@media screen and (max-width: 1650px) {
+  /* navigation bar section */
+
+  .smallLogo {
+    display: none;
+  }
+
+  .bigLogo {
+    display: block;
+    height: 100px;
+    width: 180px;
+    margin: 5px 0px 0px -10px;
+  }
+
+  /* homepage section */
+
   .three {
     display: flex;
     justify-content: center;
@@ -194,51 +522,136 @@ button:hover {
     margin: 0px 0px 0px 0px;
   }
 
+  .featuredImg {
+    background-image: url(/src/img/featuredImg4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1700px;
+    height: 700px;
+  }
+
+  /* newsletter section */
+
+  .news {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
+  }
+
+  .newsletter {
+    background-image: url(/src/img/newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1250px;
+    height: 750px;
+    padding: 0px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+  }
+
   input {
     width: 400px;
     height: 68px;
     border-radius: 8px 0px 0px 8px;
     margin: 550px 0px 0px 50px;
-    background-color: #FCF3E3;
+    background-color: #4F3325;
     font-size: 20px;
     padding-left: 40px;
   }
 
-  button {
+  .buttonN {
     width: 150px;
     height: 70px;
     border-radius: 0px 8px 8px 0px;
     margin: 550px 0px 0px 0px;
-    color: black;
+    color: white;
     font-size: 20px;
     border-style: none;
-    background-color: #FCF3E3;
+    background-color: #4F3325;
   }
 
-  button:hover {
+  .buttonN:hover {
     background-color: #4F3325;
     color: black;
   }
 
   .sucess {
-    color:darkgreen;
+    color: darkgreen;
     display: flex;
     justify-content: center;
     font-family: 'nexa';
     font-size: 15px;
     margin: 15px 0px 15px 0px;
   }
-  
-  .featuredImg {
-    background-image: url(/src/img/IMG_3279.jpeg);
+
+  /* about us section */
+
+  .about {
+    background-image: url(/src/img/aboutUs.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1700px;
-    height: 700px;
+    display: flex;
+    justify-content: center;
+    width: 1900px;
+    height: 400px;
+    padding: 0px 0px 400px 0px;
+    margin: -10px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
+  .aboutUs {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: -40px 0px 0px 0px;
+  }
+
+  /* FAQ section */
+
+  .faq {
+    padding: 100px;
+    font-family: 'nexa';
+  }
+
+  .faq h1 {
+    font-family: 'nexa';
+  }
+
+  .faq p {
+    font-size: 20px;
+  }
+
+  .faqs {
+    background-image: url(/src/img/FAQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1650px;
+    height: 400px;
+    padding: 0px 0px 330px 0px;
+    margin: -10px 0px 0px 0px;
   }
 }
 
-@media screen and (max-width: 1450px ) {
+@media screen and (max-width: 1450px) {
+  /* navigation bar section */
+
+  .smallLogo {
+    display: none;
+  }
+
+  .bigLogo {
+    display: block;
+    height: 100px;
+    width: 180px;
+    margin: 5px 0px 0px -10px;
+  }
+
+  /* homepage section */
+
   .three {
     display: flex;
     justify-content: center;
@@ -258,34 +671,63 @@ button:hover {
     margin: 0px 0px 0px 0px;
   }
 
+  .featuredImg {
+    background-image: url(/src/img/featuredImg4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1500px;
+    height: 500px;
+  }
+
+  /* newsletter section */
+
   input {
     width: 230px;
     height: 48px;
     border-radius: 5px 0px 0px 5px;
-    margin: 400px 0px 0px 100px;
-    background-color: #FCF3E3;
+    margin: 350px 0px 0px 100px;
+    background-color: #4F3325;
     font-size: 15px;
     padding-left: 40px;
   }
 
-  button {
+  .buttonN {
     width: 100px;
     height: 50px;
     border-radius: 0px 5px 5px 0px;
-    margin: 400px 0px 0px 0px;
+    margin: 350px 70px 0px 0px;
     font-size: 15px;
     border-style: none;
-    color: black;
-    background-color: #FCF3E3;
+    color: white;
+    background-color: #4F3325;
   }
 
-  button:hover {
+  .buttonN:hover {
     background-color: #4F3325;
     color: white;
   }
 
+  .news {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
+  }
+
+  .newsletter {
+    background-image: url(/src/img/newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1050px;
+    height: 550px;
+    padding: 0px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+  }
+
   .sucess {
-    color:darkgreen;
+    color: darkgreen;
     display: flex;
     justify-content: center;
     font-family: 'nexa';
@@ -293,17 +735,220 @@ button:hover {
     margin: 10px 0px 10px 0px;
   }
 
-  .featuredImg {
-    background-image: url(/src/img/IMG_3279.jpeg);
+  /* About us  section */
+
+  .about {
+    background-image: url(/src/img/aboutUs.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
     width: 1500px;
-    height: 500px;
+    height: 200px;
+    padding: 0px 0px 500px 0px;
+    margin: -10px 0px 0px 0px;
+    background-color: #FCF3E3;
   }
-  
+
+  .aboutUs {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: -40px 0px 0px 0px;
+  }
+
+  /* terms & conditions section */
+
+  .termsTitle {
+    background-image: url(/src/img/termsTitle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    height: 350px;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px -100px 0px;
+  }
+
+  .terms {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 80px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
+  /* Product section */
+
+  .product {
+    background-image: url(/src/img/productImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1250px;
+    height: 100px;
+    padding: 0px 0px 570px 0px;
+    margin: 70px 0px 20px 0px;
+  }
+
+  .bgProduct {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+    background-color: #21242a;
+  }
+
+  /* FAQ section */
+
+  .faq {
+    padding: 100px;
+    font-family: 'nexa';
+  }
+
+  .faq h2 {
+    font-family: 'nexa';
+    font-size: 15px;
+  }
+
+  .faq p {
+    font-size: 15px;
+  }
+
+  .faqs {
+    background-image: url(/src/img/FAQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1450px;
+    height: 100px;
+    padding: 0px 0px 530px 0px;
+    margin: 100px 0px 20px 0px;
+  }
+
+  .bgfaq {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
 }
 
-@media screen and (max-width: 1050px ) {
+@media screen and (max-width: 1250px) {
+  /* navigation bar section */
+  .smallLogo {
+    display: none;
+  }
+
+  .bigLogo {
+    display: block;
+    height: 100px;
+    width: 180px;
+    margin: 5px 0px 0px -10px;
+  }
+
+  /* FAQ section */
+
+  .faq {
+    padding: 100px;
+    font-family: 'nexa';
+  }
+
+  .faq h2 {
+    font-family: 'nexa';
+    font-size: 15px;
+  }
+
+  .faq p {
+    font-size: 15px;
+  }
+
+  .faqs {
+    background-image: url(/src/img/FAQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1450px;
+    height: 100px;
+    padding: 0px 0px 450px 0px;
+    margin: 100px 0px 20px 0px;
+  }
+
+  .bgfaq {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
+  /* Product section */
+
+  .product {
+    background-image: url(/src/img/productImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1250px;
+    height: 30px;
+    padding: 0px 0px 570px 0px;
+    margin: 70px 0px 20px 0px;
+  }
+
+  .bgProduct {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+    background-color: #21242a;
+  }
+
+  /* About us section */
+
+  .about {
+    background-image: url(/src/img/aboutUs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    height: 150px;
+    padding: 0px 0px 450px 0px;
+    margin: -10px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
+  .aboutUs {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+  }
+
+}
+
+@media screen and (max-width: 1050px) {
+  /* navigation bar section */
+
+  .smallLogo {
+    display: none;
+  }
+
+  .bigLogo {
+    display: block;
+    height: 100px;
+    width: 180px;
+    margin: 5px 0px 0px -10px;
+  }
+
+  /* Homepage section */
+
   .three {
     display: flex;
     justify-content: center;
@@ -323,43 +968,504 @@ button:hover {
     margin: 0px 0px 0px 0px;
   }
 
-  input {
-    width: 200px;
-    height: 38px;
-    border-radius: 5px 0px 0px 5px;
-    margin: 280px 0px 0px 50px;
-    background-color: #FCF3E3;
-    font-size: 15px;
-    padding-left: 40px;
-  }
-
-  button {
-    width: 100px;
-    height: 40px;
-    border-radius: 0px 5px 5px 0px;
-    margin: 280px 0px 0px 0px;
-    font-size: 15px;
-    border-style: none;
-    color: black;
-    background-color: #FCF3E3;
-  }
-
-  button:hover {
-    background-color: #4F3325;
-    color: white;
-  }
-
   .featuredImg {
-    background-image: url(/src/img/IMG_3279.jpeg);
+    background-image: url(/src/img/featuredImg4.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1200px;
     height: 320px;
   }
-  
+
+  /* newsletter section */
+
+  input {
+    width: 200px;
+    height: 38px;
+    border-radius: 5px 0px 0px 5px;
+    margin: 280px 0px 0px 50px;
+    background-color: #4F3325;
+    font-size: 15px;
+    padding-left: 40px;
+  }
+
+  .buttonN {
+    width: 100px;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    margin: 280px 30px 0px 0px;
+    font-size: 15px;
+    border-style: none;
+    color: white;
+    background-color: #4F3325;
+  }
+
+  .buttonN:hover {
+    background-color: #4F3325;
+    color: white;
+  }
+
+  .news {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
+  }
+
+  .newsletter {
+    background-image: url(/src/img/newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 850px;
+    height: 450px;
+    padding: 0px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+  }
+
+  /* About us section */
+
+  .about {
+    background-image: url(/src/img/aboutUs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 100px;
+    padding: 0px 0px 400px 0px;
+    margin: -10px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
+  .aboutUs {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: -40px 0px 0px 0px;
+  }
+
+  /* terms & conditions section */
+
+  .termsTitle {
+    background-image: url(/src/img/termsTitle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1020px;
+    height: 200px;
+    padding: 0px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
+  }
+
+  .terms {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 50px;
+    background-color: #FCF3E3;
+  }
+
+  .tc {
+    padding: 40px;
+    margin: 100px 50px 50px 50px;
+    background-color: #ffe7c0;
+  }
+
+  .tc p {
+    font-size: 15px;
+    font-family: 'nexa';
+  }
+
+  .tc h1 {
+    font-family: 'nexa';
+  }
+
+  /* Product section */
+
+  .product {
+    background-image: url(/src/img/productImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1050px;
+    height: 50px;
+    padding: 0px 0px 450px 0px;
+    margin: 70px 0px 50px 0px;
+  }
+
+  .bgProduct {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+    background-color: #21242a;
+  }
+
+  /* FAQ section */
+
+  .faq {
+    padding: 100px;
+    font-family: 'nexa';
+  }
+
+  .faq h2 {
+    font-family: 'nexa';
+    font-size: 15px;
+  }
+
+  .faq p {
+    font-size: 15px;
+  }
+
+  .faqs {
+    background-image: url(/src/img/FAQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1050px;
+    height: 100px;
+    padding: 0px 0px 370px 0px;
+    margin: 100px 0px 20px 0px;
+  }
+
+  .bgfaq {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
 }
 
-@media screen and (max-width: 600px ) {
+@media screen and (max-width: 890px) {
+  /* Navigation Bar section */
+
+  .smallLogo {
+    display: none;
+  }
+
+  .bigLogo {
+    display: block;
+    height: 100px;
+    width: 180px;
+    margin: 5px 0px 0px -10px;
+  }
+
+  /* Product section */
+
+  .product {
+    background-image: url(/src/img/productImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height: 10px;
+    padding: 0px 0px 450px 0px;
+    margin: 70px 0px 70px 0px;
+  }
+
+  .bgProduct {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+    background-color: #21242a;
+  }
+
+  /* FAQ section */
+
+  .faq {
+    padding: 100px;
+    font-family: 'nexa';
+  }
+
+  .faq h2 {
+    font-family: 'nexa';
+    font-size: 15px;
+  }
+
+  .faq p {
+    font-size: 15px;
+  }
+
+  .faqs {
+    background-image: url(/src/img/FAQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1450px;
+    height: 100px;
+    padding: 0px 0px 300px 0px;
+    margin: 100px 0px 20px 0px;
+  }
+
+  .bgfaq {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
+}
+
+@media screen and (max-width: 790px) {
+  /* Homepage section */
+
+  .three {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 70px 20px 0px 0px;
+  }
+
+  .img {
+    background-image: url(/src/img/home2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 580px;
+    height: 350px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .featuredImg {
+    background-image: url(/src/img/featuredImg4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 320px;
+  }
+
+  /* Product section */
+
+  .product {
+    background-image: url(/src/img/productImgSmallpng.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1050px;
+    height: 10px;
+    padding: 0px 0px 280px 0px;
+    margin: 100px 0px 70px 0px;
+  }
+
+  .bgProduct {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+    background-color: #21242a;
+  }
+
+  /* Newsletter section */
+
+  input {
+    width: 150px;
+    height: 38px;
+    border-radius: 5px 0px 0px 5px;
+    margin: 190px 0px 0px 50px;
+    background-color: #4F3325;
+    font-size: 15px;
+    padding-left: 40px;
+  }
+
+  .buttonN {
+    width: 80px;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    margin: 190px 40px 0px 0px;
+    font-size: 15px;
+    border-style: none;
+    color: white;
+    background-color: #4F3325;
+  }
+
+  .buttonN:hover {
+    background-color: #4F3325;
+    color: white;
+  }
+
+  .news {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
+  }
+
+  .newsletter {
+    background-image: url(/src/img/newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    height: 250px;
+    padding: 0px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+  }
+
+  /* terms & conditions section */
+
+  .termsTitle {
+    background-image: url(/src/img/termsTitle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 620px;
+    height: 200px;
+    padding: 0px 0px 0px 0px;
+    margin: 50px 0px -100px 0px;
+  }
+
+  .result {
+    padding: 100px 0px 0px 0px;
+  }
+
+  /* FAQ section */
+
+  .faq {
+    padding: 100px;
+    font-family: 'nexa';
+  }
+
+  .faq h2 {
+    font-family: 'nexa';
+    font-size: 15px;
+  }
+
+  .faq p {
+    font-size: 15px;
+  }
+
+  .faqs {
+    background-image: url(/src/img/FAQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1450px;
+    height: 100px;
+    padding: 0px 0px 250px 0px;
+    margin: 100px 0px 20px 0px;
+  }
+
+  .bgfaq {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  /* Navigation Bar section */
+
+  .smallLogo {
+    display: none;
+  }
+
+  .bigLogo {
+    display: block;
+    height: 100px;
+    width: 180px;
+    margin: 5px 0px 0px -10px;
+  }
+
+  /* Terms & conditions section */
+
+  .termsTitle {
+    background-image: url(/src/img/termsTitle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 620px;
+    height: 100px;
+    padding: 0px 0px 10px 0px;
+    margin: 50px 0px -50px 0px;
+  }
+
+  .terms {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 50px;
+    background-color: #FCF3E3;
+  }
+
+  /* FAQ section */
+
+  .faq {
+    padding: 100px;
+    font-family: 'nexa';
+  }
+
+  .faq h2 {
+    font-family: 'nexa';
+    font-size: 15px;
+  }
+
+  .faq p {
+    font-size: 15px;
+  }
+
+  .faqs {
+    background-image: url(/src/img/FAQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1450px;
+    height: 100px;
+    padding: 0px 0px 200px 0px;
+    margin: 100px 0px 20px 0px;
+  }
+
+  .bgfaq {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  /* Navigation Bar section */
+
+  .navlogo {
+    padding: 20px;
+    margin: 20px 0px 0px 50px;
+  }
+
+  .smallLogo {
+    display: none;
+  }
+
+  .bigLogo {
+    display: block;
+    height: 70px;
+    width: 125px;
+    margin: 5px 0px 0px -5px;
+  }
+
+  /* Homepage section */
+
   .three {
     display: flex;
     justify-content: center;
@@ -379,55 +1485,63 @@ button:hover {
     margin: 0px 0px 0px 0px;
   }
 
-  input {
-    width: 130px;
-    height: 20px;
-    border-radius: 5px 0px 0px 5px;
-    margin: 165px 0px 0px 0px;
-    background-color: #FCF3E3;
-    font-size: 8px;
-    padding-left: 10px;
-  }
-
-  button {
-    width: 60px;
-    height: 22px;
-    border-radius: 0px 5px 5px 0px;
-    margin: 165px 0px 0px 0px;
-    font-size: 8px;
-    border-style: none;
-    color: black;
-    background-color: #FCF3E3;
-  }
-
-  button:hover {
-    background-color: #4F3325;
-    color: white;
-  }
-
-  .sucess {
-    color:darkgreen;
-    display: flex;
-    justify-content: center;
-    font-family: 'nexa';
-    font-size: 8px;
-    margin: 8px 0px 8px 0px;
-  }
-
   .featuredImg {
-    background-image: url(/src/img/IMG_3279.jpeg);
+    background-image: url(/src/img/featuredImg4.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 600px;
     height: 260px;
   }
-  
-}
 
-@media screen and (max-width: 500px ) {
+  /* Newsletter section */
+
+  input {
+    width: 130px;
+    height: 20px;
+    border-radius: 5px 0px 0px 5px;
+    margin: 165px 0px 0px 0px;
+    background-color: #4F3325;
+    font-size: 8px;
+    padding-left: 10px;
+  }
+
+  .buttonN {
+    width: 60px;
+    height: 22px;
+    border-radius: 0px 5px 5px 0px;
+    margin: 165px 0px 0px -20px;
+    font-size: 8px;
+    border-style: none;
+    color: white;
+    background-color: #4F3325;
+  }
+
+  .buttonN:hover {
+    background-color: #4F3325;
+    color: white;
+  }
+
+  .news {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
+  }
+
+  .newsletter {
+    background-image: url(/src/img/newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    height: 250px;
+    padding: 0px 0px 0px 0px;
+    margin: -100px 0px -50px 0px;
+  }
 
   .sucess {
-    color:darkgreen;
+    color: darkgreen;
     display: flex;
     justify-content: center;
     font-family: 'nexa';
@@ -435,14 +1549,603 @@ button:hover {
     margin: 8px 0px 8px 0px;
   }
 
+  .result {
+    padding: -100px 0px -100px 0px;
+  }
+
+  /* Terms & conditions section */
+
+  .termsTitle {
+    background-image: url(/src/img/termsTitle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 620px;
+    height: 100px;
+    padding: 0px 0px 10px 0px;
+    margin: 50px 0px -60px 0px;
+  }
+
+  .terms {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 50px;
+    background-color: #FCF3E3;
+  }
+
+  /* Product section */
+
+  .product {
+    background-image: url(/src/img/productImgSmallpng.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 850px;
+    height: 5px;
+    padding: 0px 0px 200px 0px;
+    margin: 80px 0px 70px 0px;
+  }
+
+  .bgProduct {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+    background-color: #21242a;
+  }
+
+  /* FAQ section */
+
+  .faq {
+    padding: 30px;
+    font-family: 'nexa';
+  }
+
+  .faq h2 {
+    font-family: 'nexa';
+    font-size: 15px;
+  }
+
+  .faq p {
+    font-size: 15px;
+  }
+
+  .faqs {
+    background-image: url(/src/img/FAQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 1050px;
+    height: 70px;
+    padding: 0px 0px 190px 0px;
+    margin: 100px 0px 20px 0px;
+  }
+
+  .bgfaq {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  /* Homepage section */
+
   .featuredImg {
-    background-image: url(/src/img/IMG_3279.jpeg);
+    background-image: url(/src/img/featuredImg4.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 500px;
     height: 160px;
   }
-  
+
+  /* Newsletter section */
+
+  .sucess {
+    color: darkgreen;
+    display: flex;
+    justify-content: center;
+    font-family: 'nexa';
+    font-size: 8px;
+    margin: 8px 0px 8px 0px;
+  }
+
+  .news {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 50px 0px;
+  }
+
+  .newsletter {
+    background-image: url(/src/img/newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    height: 250px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .result {
+    margin: -90px 0px 100px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  /* terms & conditions section */
+
+  .termsTitle {
+    background-image: url(/src/img/termsTitle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 620px;
+    height: 100px;
+    padding: 0px 0px 10px 0px;
+    margin: 50px 0px -50px 0px;
+  }
+
+  .terms {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 50px;
+    background-color: #FCF3E3;
+  }
+
+  .tc {
+    padding: 30px;
+    margin: 50px 30px 30px 30px;
+    background-color: #ffe7c0;
+  }
+
+  .tc p {
+    font-size: 12px;
+    font-family: 'nexa';
+  }
+
+  .tc h1 {
+    font-size: 25px;
+    font-family: 'nexa';
+  }
+
+  /* FAQ section */
+
+  .faq {
+    padding: 30px;
+    font-family: 'nexa';
+  }
+
+  .faq h2 {
+    font-family: 'nexa';
+    font-size: 15px;
+  }
+
+  .faq p {
+    font-size: 15px;
+  }
+
+  .faqs {
+    background-image: url(/src/img/FAQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 850px;
+    height: 30px;
+    padding: 0px 0px 190px 0px;
+    margin: 100px 0px 20px 0px;
+  }
+
+  .bgfaq {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  /* Navigation Bar section */
+
+  .mobileMenu {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 10px 0px;
+  }
+
+  .navlogo {
+    padding: 0px;
+    margin: -12px 0px 0px 10px;
+    border-style: none;
+  }
+
+  .smallLogo {
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+
+  .bigLogo {
+    display: none;
+  }
+
+  /* Homepage section */
+
+  .three {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 70px 0px 0px 0px;
+  }
+
+  .img {
+    background-image: url(/src/img/home2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .featuredImg {
+    background-image: url(/src/img/featuredImg4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 160px;
+  }
+
+  /* Newsletter section */
+
+  .sucess {
+    color: darkgreen;
+    display: flex;
+    justify-content: center;
+    font-family: 'nexa';
+    font-size: 8px;
+    margin: 8px 0px 8px 0px;
+  }
+
+
+  .news {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 50px 0px;
+  }
+
+  input {
+    width: 130px;
+    height: 20px;
+    border-radius: 5px 0px 0px 5px;
+    margin: 120px 0px 0px 0px;
+    background-color: #4F3325;
+    font-size: 8px;
+    padding-left: 10px;
+  }
+
+  .buttonN {
+    width: 60px;
+    height: 22px;
+    border-radius: 0px 5px 5px 0px;
+    margin: 120px 0px 0px -6px;
+    font-size: 8px;
+    border-style: none;
+    color: white;
+    background-color: #4F3325;
+  }
+
+  .buttonN:hover {
+    background-color: #4F3325;
+    color: white;
+  }
+
+  .newsletter {
+    background-image: url(/src/img/newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 150px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .result {
+    margin: -40px 0px 100px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  /* Terms & conditions section */
+
+  .termsTitle {
+    background-image: url(/src/img/termsTitle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    padding: 0px 0px 10px 0px;
+    margin: 50px 0px 0px 0px;
+  }
+
+  .terms {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 50px;
+    background-color: #FCF3E3;
+  }
+
+  .tc {
+    padding: 30px;
+    margin: 50px 30px 30px 30px;
+    background-color: #ffe7c0;
+  }
+
+  .tc p {
+    font-size: 12px;
+    font-family: 'nexa';
+  }
+
+  .tc h1 {
+    font-size: 25px;
+    font-family: 'nexa';
+  }
+
+  /* Product section */
+
+  .product {
+    background-image: url(/src/img/productImgSmallpng.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 850px;
+    height: 5px;
+    padding: 0px 0px 150px 0px;
+    margin: 70px 0px 70px 0px;
+  }
+
+  .bgProduct {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: -100px 0px 0px 0px;
+    background-color: #21242a;
+  }
+
+  /* FAQ section */
+
+  .faq {
+    padding: 30px;
+    font-family: 'nexa';
+  }
+
+  .faq h2 {
+    font-family: 'nexa';
+    font-size: 15px;
+  }
+
+  .faq p {
+    font-size: 15px;
+  }
+
+  .faqs {
+    background-image: url(/src/img/FAQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 30px;
+    padding: 0px 0px 170px 0px;
+    margin: 100px 0px 0px -40px;
+  }
+
+  .bgfaq {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* Navigation Bar section */
+
+  .mobileMenu {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 10px 0px;
+  }
+
+  .navlogo {
+    padding: 0px;
+    margin: -12px 0px 0px 10px;
+    border-style: none;
+  }
+
+  .smallLogo {
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+
+  .bigLogo {
+    display: none;
+  }
+
+  /* Homepage section */
+
+  .three {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 70px 0px 0px 0px;
+  }
+
+  .img {
+    background-image: url(/src/img/home2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .featuredImg {
+    background-image: url(/src/img/featuredImg4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 100px;
+  }
+
+  /* Newsletter section */
+
+  .sucess {
+    color: darkgreen;
+    display: flex;
+    justify-content: center;
+    font-family: 'nexa';
+    font-size: 8px;
+    margin: 8px 0px 8px 0px;
+  }
+
+
+  .news {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 50px 0px;
+  }
+
+  input {
+    width: 130px;
+    height: 20px;
+    border-radius: 5px 0px 0px 5px;
+    margin: 120px 0px 0px 0px;
+    background-color: #4F3325;
+    font-size: 8px;
+    padding-left: 10px;
+  }
+
+  .buttonN {
+    width: 60px;
+    height: 22px;
+    border-radius: 0px 5px 5px 0px;
+    margin: 120px 0px 0px -6px;
+    font-size: 8px;
+    border-style: none;
+    color: white;
+    background-color: #4F3325;
+  }
+
+  .buttonN:hover {
+    background-color: #4F3325;
+    color: white;
+  }
+
+  .newsletter {
+    background-image: url(/src/img/newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 150px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .result {
+    margin: -40px 0px 100px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  /* Terms & conditions section */
+
+  .termsTitle {
+    background-image: url(/src/img/termsTitle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 220px;
+    height: 50px;
+    padding: 0px 0px 10px 0px;
+    margin: 50px 0px 0px 0px;
+  }
+
+  .terms {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 50px;
+    background-color: #FCF3E3;
+  }
+
+  .tc {
+    padding: 30px;
+    margin: 50px 30px 30px 30px;
+    background-color: #ffe7c0;
+  }
+
+  .tc p {
+    font-size: 12px;
+    font-family: 'nexa';
+  }
+
+  .tc h1 {
+    font-size: 25px;
+    font-family: 'nexa';
+  }
+
+  /* FAQ section */
+
+  .faqs {
+    background-image: url(/src/img/FAQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 7px;
+    padding: 0px 0px 170px 0px;
+    margin: 100px 0px 0px -40px;
+  }
+
+  .bgfaq {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FCF3E3;
+  }
+
 }
 
 

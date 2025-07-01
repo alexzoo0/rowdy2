@@ -28,6 +28,9 @@ footerin: {
 
 footerin1: {
     color: 'white',
+    "&:hover": {
+            color: '#21242a',
+        },
 },
 
 footerin2: {
@@ -119,7 +122,7 @@ link: {
     },
 
     buttonsF: {
-        margin: '40px 10px 0px 0px',
+        margin: '60px 10px 0px 0px',
         color: 'white',
     },
 
@@ -155,8 +158,46 @@ link: {
     },
 
     buttonsF: {
-        margin: '15px 80px 0px 0px',
+        margin: '35px 80px 0px 0px',
         color: 'white',
+    },
+
+    link: {
+        margin: '0px 10px 0px 10px',
+        color: 'white',
+    },
+},
+
+'@media (max-width:450px)': {
+    footerin123: {
+        fontSize: '10px',
+        color: 'white',
+        fontFamily: 'nexa',
+    },
+
+    footerin12: {
+        fontSize: '15px',
+        color: 'white',
+        fontFamily: 'nexa',
+    },
+
+    footerCon: {
+        margin: '0px 0px 50px 20px',
+        color: 'black',
+        fontSize: '8px',
+    },
+    
+    footerCon2: {
+        margin: '10px 10px 0px -100px',
+        color: 'white',
+        fontSize: '8px',
+    },
+
+    buttonsF: {
+        margin: '15px 70px 0px -120px',
+        color: 'white',
+        display: 'flex',
+        flexDirection: 'column',
     },
 
     link: {
